@@ -18,8 +18,6 @@
 - `Count` – total number of elements (counting duplicates) in the tree.
 
 ## Testing
-- **A 100 randomized, property based tests with the help of a dictionary**
-Each test consists of a random sequence of deletions & insertions and a check. 
+- **A 100 randomized, property based tests with the help of a dictionary:** each test consists of a random sequence of deletions & insertions and a check. 
 Only string and integer lists are generated for randomized testing, but the `static bool RandomizedTest<T>(List<T> input) where T : IComparable<T>` itself allows other types.
-- **An `AllCasesTest` test**
-Tests individual insertion, deletion and rotation cases with predefined integer values.
+- **An `AllCasesTest` test:** tests individual insertion, deletion and rotation cases with predefined integer values.
