@@ -21,3 +21,9 @@
 - **A 100 randomized, property based tests with the help of a dictionary:** each test consists of a random sequence of deletions & insertions and a check. 
 Only string and integer lists are generated for randomized testing, but the `static bool RandomizedTest<T>(List<T> input) where T : IComparable<T>` itself allows other types.
 - **An `AllCasesTest` test:** tests individual insertion, deletion and rotation cases with predefined integer values.
+
+### Running the tests
+Make sure you have the .NET SDK installed, then from the project folder:
+```
+dotnet run
+```
